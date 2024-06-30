@@ -1,0 +1,9 @@
+microservice:
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ORDER_SERVICE/user
+  product-service:
+    endpoints:
+      endpoint:
+        uri: http://PRODUCT-SERVICE/product  
